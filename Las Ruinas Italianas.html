@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurante Las Ruinas Italianas</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f5f5; }
+    header { background-color: #6a1b1a; color: white; text-align: center; padding: 20px; }
+    header img { width: 80px; height: auto; vertical-align: middle; }
+    nav { background-color: #d32f2f; display: flex; justify-content: center; padding: 10px; }
+    nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+    section { padding: 20px; }
+    .menu { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+    .plato { background: white; border-radius: 8px; padding: 10px; width: 200px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
+    .plato img { width: 100%; border-radius: 8px; }
+    footer { background: #424242; color: white; text-align: center; padding: 15px; }
+    iframe { width: 100%; height: 300px; border: none; border-radius: 8px; }
+    .info { max-width: 800px; margin: 0 auto; text-align: justify; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Las Ruinas.png" alt="Logo del Restaurante">
+    <h1>Las Ruinas Italianas</h1>
+    <p>Una experiencia gastronómica italiana en el corazón de México</p>
+  </header>
+
+  <nav>
+    <a href="#menu">Menú</a>
+    <a href="#galeria">Galería</a>
+    <a href="#ubicacion">Ubicación</a>
+    <a href="#nosotros">Nosotros</a>
+  </nav>
+
+  <section id="nosotros">
+    <h2>Sobre Nosotros</h2>
+    <div class="info">
+      <p><strong>Las Ruinas Italianas</strong> es un restaurante de inspiración rústica y refinada, fundado en 2023 por un grupo de chefs apasionados por la cocina tradicional italiana. Nuestro objetivo es ofrecer una experiencia culinaria auténtica, donde cada platillo es elaborado con ingredientes frescos, técnicas tradicionales y un toque moderno.</p>
+      <p>El nombre del restaurante proviene de la ambientación del lugar: un espacio decorado con elementos que evocan la grandeza de la antigua Roma y la Toscana medieval. Las paredes de piedra, las columnas talladas y los jardines interiores crean un ambiente acogedor y elegante.</p>
+      <p>Contamos con un horno de leña artesanal para la preparación de nuestras pizzas, y todos nuestros postres son elaborados diariamente por nuestros reposteros. Nuestro menú cambia según la temporada, permitiéndonos ofrecer siempre lo mejor de cada estación.</p>
+      <p>Nuestro equipo está conformado por profesionales con experiencia internacional en gastronomía italiana. Además, ofrecemos catas de vino, noches temáticas y clases de cocina para nuestros clientes más entusiastas.</p>
+      <p>¡Ven y descubre por qué Las Ruinas Italianas es mucho más que un restaurante: es un viaje sensorial a través de la cultura italiana!</p>
+
+      <h3>Misión</h3>
+      <p>Ofrecer una experiencia gastronómica italiana de alta calidad, rescatando recetas tradicionales con ingredientes frescos y una atención excepcional, en un ambiente que combine historia, cultura y hospitalidad.</p>
+
+      <h3>Visión</h3>
+      <p>Convertirnos en el referente principal de cocina italiana en México, siendo reconocidos por nuestra autenticidad, innovación culinaria y compromiso con la excelencia en el servicio.</p>
+
+      <h3>Objetivo</h3>
+      <p>Brindar a cada comensal una vivencia única mediante platillos artesanales, promoviendo la cultura italiana y la sostenibilidad en cada etapa del servicio gastronómico.</p>
+    </div>
+  </section>
+
+  <section id="menu">
+    <h2>Menú Completo</h2>
+    <div class="menu">
+      <div class="plato">
+        <img src="lasagna.jpg" alt="Lasaña">
+        <h3>Lasaña della Nonna</h3>
+        <p>Con carne de res, salsa bechamel y albahaca fresca.</p>
+      </div>
+      <div class="plato">
+        <img src="pizza.jpg" alt="Pizza">
+        <h3>Pizza Vesubio</h3>
+        <p>Masa madre, tomate San Marzano, mozzarella di bufala.</p>
+      </div>
+      <div class="plato">
+        <img src="tiramisu.jpg" alt="Tiramisú">
+        <h3>Tiramisú Clásico</h3>
+        <p>Hecho en casa con cacao natural y espresso italiano.</p>
+      </div>
+      <div class="plato">
+        <img src="ravioli.jpg" alt="Ravioles">
+        <h3>Ravioli al Funghi</h3>
+        <p>Rellenos de hongos porcini con salsa cremosa de parmesano.</p>
+      </div>
+      <div class="plato">
+        <img src="ensalada.jpg" alt="Ensalada Caprese">
+        <h3>Ensalada Caprese</h3>
+        <p>Jitomate, mozzarella fresca, albahaca y reducción de balsámico.</p>
+      </div>
+      <div class="plato">
+        <img src="bruschetta.jpg" alt="Bruschetta">
+        <h3>Bruschetta Mixta</h3>
+        <p>Pan tostado con tomate, ajo, aceitunas negras y pesto.</p>
+      </div>
+      <div class="plato">
+        <img src="gelato.jpg" alt="Gelato">
+        <h3>Gelato Artesanal</h3>
+        <p>Sabores clásicos italianos: pistache, limón y chocolate.</p>
+      </div>
+      <div class="plato">
+        <img src="vino.jpg" alt="Vino tinto">
+        <h3>Vinos de la Casa</h3>
+        <p>Selección de vinos italianos: Chianti, Barolo y Nero d'Avola.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="galeria">
+    <h2>Galería</h2>
+    <div class="menu">
+      <img src="interior.jpg" alt="Interior del restaurante" style="width:300px; border-radius:8px;">
+      <img src="exterior.jpg" alt="Exterior del restaurante" style="width:300px; border-radius:8px;">
+    </div>
+  </section>
+
+  <section id="ubicacion">
+    <h2>Ubicación</h2>
+    <p>Estamos en: Calle 49 entre 10 y 12 colonia san francisco. Valladolid Yucatan</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.1234567890123!2d-99.1234567!3d19.1234567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0000000000000000!2sUbicación%20Ficticia!5e0!3m2!1ses-419!2smx!4v0000000000000"></iframe>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Las Ruinas Italianas | Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
